@@ -27,7 +27,13 @@
     "url": "https://github.com/mrsunboss/redux-async-connect/issues"
   },
   "homepage": "https://github.com/mrsunboss/redux-async-connect",
-  "peerDependencies": {},
+  "peerDependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^5.0.0",
+    "react-router": "^3.0.0",
+    "redux": "^3.6.0"
+  },
   "devDependencies": {
     "babel-cli": "^6.4.5",
     "babel-core": "^6.4.5",
@@ -57,12 +63,5 @@
     "webpack": "^1.12.6",
     "webpack-dev-middleware": "^1.2.0",
     "eslint-config-airbnb": "^3.1.0"
-  },
-  "dependencies": {
-    "react": "^15.4.1",
-    "react-dom": "^15.4.1",
-    "react-redux": "^5.0.0",
-    "react-router": "^3.0.0",
-    "redux": "^3.6.0"
   }
 }
